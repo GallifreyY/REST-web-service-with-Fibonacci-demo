@@ -2,14 +2,24 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Docker instruction
+cd to the Dockerfile location, open powershell and run:
+### `docker build -t name-of-your-image .`
+### `docker run -p 3000:3000 name-of-your-image-or-image-id`
+
 ## Server end
 cd to the server directory, and run:
+### `npm install`
 
 ### `npm start`
 
 Your server will be start at port 8080.
 
+## Client end
+
 In the project directory, you can run:
+
+### `npm install`
 
 ### `npm start`
 
